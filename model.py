@@ -14,7 +14,7 @@ with open(pickle_file, 'rb') as f:
     train_dataset = save['train_dataset']
     train_labels = save['train_labels']
     del save  # hint to help gc free up memory
-    print('Test set', train_dataset.shape, train_labels.shape)
+    print('Train set', train_dataset.shape, train_labels.shape)
 
 print(np.max(train_dataset[0]))
 
