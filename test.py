@@ -98,9 +98,6 @@ model = Model(inputs=x, outputs=out)
 model.load_weights("saved/phase_4.hdf5")
 print('initialized')
 
-def accuracy(predictions, labels):
-	return (100.0 * np.sum(np.argmax(predictions, 2).T == labels) / predictions.shape[1] / predictions.shape[0])
-
 batch_size = 512
 
 num_batches = np.floor(test_dataset.shape[0] / batch_size).astype('uint8')
@@ -136,12 +133,4 @@ print(count_)
 print(tempc_)
 print(tempc__)
 
-
-
-# j = 0
-# for i in range(num_batches):
-# 	batch_predictions = model.predict_on_batch(x = test_dataset[j:j+batch_size])
-# 	predictions = np.asarray(batch_predictions)
-# 	print(accuracy(predictions, test_labels[j:j+batch_size, 1:6]))
-# 	j += batch_size
 
