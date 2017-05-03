@@ -1,4 +1,7 @@
-# Multi-Digit-number-recognition-in-natural-images
+# See SVHN folder for experiments for different models.
+
+## model.py in this folder is a straight forward approach that achieves very high accuracy
+## Multi-Digit-number-recognition-in-natural-images
 
 ## Acheived a test accuracy of 91%
 ## Run test.py to check accuray
