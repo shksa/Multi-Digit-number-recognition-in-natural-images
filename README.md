@@ -1,4 +1,6 @@
-# See SVHN folder for experiments on different models for the same task.(More interesing!).
+# actual321.ipynb has the training for the model on images with 1, 2, 3 numbers in it. 
+# saliency map.ipynb has the saliency visualization for the model trained in actual321.ipynb.
+## See SVHN folder for experiments on different models for the same task.(More interesing!).
 
 ## model.py in this folder is a straight forward approach that achieves very high accuracy
 ## Multi-Digit-number-recognition-in-natural-images
