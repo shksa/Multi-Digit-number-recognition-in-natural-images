@@ -1,4 +1,5 @@
-# actual321.ipynb has the training for the model on images with 1, 2, 3 numbers in it. 
+## actual321.ipynb has the training for the model on images with 1, 2, 3 numbers in it. The training routine is different from the usual method. A digit classifier gets backprop'ed only if it's the right classifier for the digit.
+## ex: for 2 digit image, only the first 2 digit classifier's are backprop'ed. 3rd, 4th, 5th are not backprop'ed.
 # saliency map.ipynb has the saliency visualization for the model trained in actual321.ipynb.
 ## See SVHN folder for experiments on different models for the same task.(More interesing!).
 
